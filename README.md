@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/SRB1025X/VocabVoice">
-    <img src="images/logo.png" alt="Logo" width="160" height="80">
+    <img src="images/logo.png" alt="Logo" width="160" height="100">
   </a>
 
   <h3 align="center">VocabVoice</h3>
@@ -143,3 +143,4 @@ Enjoy using the Voice Dictionary to effortlessly discover the meanings of words 
 ## Authors
 
 * **Shreyas** - *Computer Science Student at JNTUH* - [Shreyas Github](https://github.com/SRB1025X) - [Shreyas Linkedin](https://www.linkedin.com/in/srb1025x/)
+* **Anil** - *Computer Science Student at JNTUH*
