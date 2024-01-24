@@ -26,11 +26,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
 * [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
@@ -40,8 +36,6 @@ The Voice Dictionary allows users to search for the meanings of words using voic
 
 ## Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * [Python3](https://www.python.org/)
 * [Tkinter](https://docs.python.org/3/library/tkinter.html)
 * [Pyttsx3](https://pypi.org/project/pyttsx3/)
@@ -50,77 +44,103 @@ This section should list any major frameworks that you built your project using.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Here's a guide to help users get started with your Voice Dictionary application:
 
-### Prerequisites
+### Getting Started with Voice Dictionary
 
-This is an example of how to list things you need to use the software and how to install them.
+#### Prerequisites:
 
-* npm
+1. **Python:** Make sure you have Python installed on your system. You can download Python from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
-```sh
-npm install npm@latest -g
-```
+#### Installation Steps:
 
-### Installation
+1. **Clone the Repository:**
+   Open your terminal or command prompt and run the following command to clone the Voice Dictionary repository to your local machine:
 
-1. Get a free API Key at [https://example.com](https://example.com)
+   ```bash
+   git clone https://github.com/SRB1025X/VocabVoice.git
+   ```
 
-2. Clone the repo
+2. **Navigate to the Project Directory:**
+   Change your current directory to the project folder:
 
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
+   ```bash
+   cd VocabVoice
+   ```
 
-3. Install NPM packages
+3. **Install Required Python Packages:**
+   Run the following command to install the necessary Python packages:
 
-```sh
-npm install
-```
+   ```bash
+   pip install pyttsx3 SpeechRecognition PyDictionary
+   ```
 
-4. Enter your API in `config.js`
+   This will install the required libraries for text-to-speech, speech recognition, and dictionary functionalities.
 
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
+#### Running the Application:
 
-## Usage
+1. **Run the Python Script:**
+   Execute the following command to run the Voice Dictionary application:
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+   ```bash
+   python VocabVoice.py
+   ```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+2. **Explore the Interface:**
+   The application window will appear, featuring a "Voice search" label, a status label indicating the current state (listening or recognizing), and an area to display the meaning of the searched word. Click the "Search" button to initiate a voice search.
 
-## Roadmap
+3. **Follow the Prompts:**
+   The application will prompt you to speak the word you want to find the meaning of. Speak clearly into your microphone, and the application will recognize your voice and display the meaning.
 
-See the [open issues](https://github.com/SRB1025X/VocabVoice/issues) for a list of proposed features (and known issues).
+4. **Enjoy Exploring Word Meanings:**
+   Explore the application by searching for different words and listening to the spoken meanings.
 
-## Contributing
+#### Additional Notes:
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/SRB1025X/VocabVoice/issues/new) to discuss it, or directly create a pull request after you edit the *README.md* file with necessary changes.
-* Please make sure you check your spelling and grammar.
-* Create individual PR for each suggestion.
-* Please also read through the [Code Of Conduct](https://github.com/SRB1025X/VocabVoice/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+- Ensure that your system has a working microphone for voice input.
+- Adjust your system's audio settings to hear the spoken word meanings.
+- If there are issues with speech recognition, check your internet connection as Google's speech recognition engine is used.
 
-### Creating A Pull Request
+Congratulations! You have successfully set up and run the Voice Dictionary application on your machine. Feel free to contribute, provide feedback, or enhance the application based on your preferences!
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### Usage
 
-## License
+The Voice Dictionary application allows you to search for the meanings of words using voice commands. Follow these steps to effectively use the application:
 
-Distributed under the MIT License. See [LICENSE](https://github.com/SRB1025X/VocabVoice/blob/main/LICENSE.md) for more information.
+1. **Launch the Application:**
+   Run the application by executing the following command in your terminal or command prompt:
 
+   ```bash
+   python voice_dictionary.py
+   ```
+
+   The application window will appear, featuring the necessary labels and controls.
+
+2. **Voice Search:**
+   - Click the "Search" button to initiate a voice search.
+   - The application will prompt you with "Which word do you want to find the meaning, sir?".
+
+3. **Speak the Word:**
+   - Speak clearly into your microphone the word for which you want to find the meaning.
+   - The application will display the status as "Listening..." while capturing your voice.
+
+4. **Recognition and Display:**
+   - After capturing your voice, the status will change to "Recognizing...".
+   - The recognized word will be displayed, and the meaning of the word will be shown in the area below.
+
+5. **Audio Feedback:**
+   - The application provides audio feedback by speaking the meaning of the word using text-to-speech (TTS).
+   - Adjust your system's audio settings to ensure you can hear the spoken word meanings.
+
+6. **Explore and Repeat:**
+   - Explore the application by searching for different words and listening to the spoken meanings.
+   - Click the "Search" button again to initiate a new search.
+
+7. **Close the Application:**
+   - Close the application window when you are done by clicking the close button.
+
+
+Enjoy using the Voice Dictionary to effortlessly discover the meanings of words through voice commands! Feel free to contribute to the project or share your feedback for further improvements.
 ## Authors
 
-* **Shaan Khan** - *Comp Sci Student* - [Shaan Khan](https://github.com/ShaanCoding/) - *Built ReadME Template*
-
-## Acknowledgements
-
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
+* **Shreyas** - *Computer Science Student at JNTUH* - [Shreyas Github](https://github.com/SRB1025X) - [Shreyas Linkedin](https://www.linkedin.com/in/srb1025x/)
